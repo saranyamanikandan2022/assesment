@@ -1,19 +1,31 @@
 package week1;
 
-public class ObjectForMobile {
-public static void main(String[] args) {
-		
-		int noOfWheels=2;
-		System.out.println("noOfWheels  "+noOfWheels);
-		short  noOfMirrors=2;
-		System.out.println("noOfMirrors  "+noOfMirrors);
-		long chasisNumber=457657656655447L;
-		System.out.println("chasisNumber  "+chasisNumber);
-		String bikeName ="ROYAL ENFIELD";
-		System.out.println("bikeName "+bikeName);
-		double runningKm=567.98898;
-		System.out.println("runningKm  "+runningKm);
-		
+public class car {
+	public void applyBreak()
+	{
+	System.out.println("apply break");
+	}
+	public void applyGear()
+	{
+	System.out.println("apply gear");
+	}
+	public void switchOnAc()
+	{
+	System.out.println("switch on AC");
+	}
+	public void applyAcclerate()
+	{
+	System.out.println("apply Acclerate");
+	}
+public static void main(String[] args) 
+{
+	car action=new car();
+	action.applyBreak();
+     action.applyGear();
+	action.switchOnAc();
+	action.applyAcclerate();
+
+
 	}
 
 }
