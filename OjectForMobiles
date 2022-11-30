@@ -1,0 +1,25 @@
+package week1
+
+public class ObjectForMobile {
+
+	String mobileBrandName="Vivo";
+	char mobileLogo='v';
+	short noOfMobilePiece=1;
+	int modelNumber=33;
+	long mobileImeiNumber=534657869870876L;
+	float mobilePrice=56.78f;
+	boolean isDamaged=false;
+	
+public static void main(String[] args) {
+	ObjectForMobile mobile=new ObjectForMobile();
+	
+	           System.out.println(mobile.isDamaged);
+	           System.out.println(mobile.mobileBrandName);
+               System.out.println(mobile.mobileImeiNumber);
+               System.out.println(mobile.mobileLogo);
+               System.out.println(mobile.mobilePrice);
+               System.out.println(mobile.modelNumber);
+               System.out.println(mobile.noOfMobilePiece);
+
+ }
+}
